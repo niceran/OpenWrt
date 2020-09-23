@@ -83,7 +83,7 @@ jobs:
     - name: Load custom configuration
       run: |        
         cd openwrt
-        curl -fsSL https://github.com/niceran/OpenWrt/blob/main/files/.config >.config
+        curl -fsSL https://raw.githubusercontent.com/niceran/OpenWrt/main/files/.config >.config
         make defconfig
 #        [ -e files ] && mv files openwrt/files
 #        [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
