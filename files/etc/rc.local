@@ -3,7 +3,7 @@
 
 ebtables -t broute -A BROUTING -p ! ipv6 -j DROP -i eth1
 brctl addif br-lan eth1
-/etc/init.d/odhcpd stop
-/etc/init.d/odhcpd disable
+#/etc/init.d/odhcpd stop
+#/etc/init.d/odhcpd disable
 
 exit 0
