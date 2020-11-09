@@ -18,7 +18,7 @@ on:
     branches:
       - main
     paths:
-      - 'x86.config'
+      - '703n.config'
 #  schedule:
 #    - cron: 0 8 * * 5
 #  watch:
